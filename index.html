@@ -1,39 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QUIZ APP</title>
-  <link href="style.css" rel="stylesheet">
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="question-box">
-      Which Indian state is known as the "Land of Five Rivers"?
+    <div class="container">
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="clock"></div>
+        <button id="start-btn">Start Quiz</button>
     </div>
-    <div class="answer-box">
-      <div class="answer-box-opt correct">
-        Gujarat
-      </div>
-      <div class="answer-box-opt wrong">
-        Punjab
-      </div>
-      <div class="answer-box-opt">
-        Maharashtra
-      </div>
-      <div class="answer-box-opt">
-        Rajasthan
-      </div>
-    </div>
-    
-    <div class="btn">
-      <button class="next">Next ➡️</button>
-      <button class="exit">Exit ❌</button>
-    </div>
-   
-  </div>
-
-  <button class="start hide">Start</button>
+    <script src="script.js"></script>
 </body>
 </html>
